@@ -13,6 +13,7 @@
 		559D7C372BC1D920005663DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559D7C352BC1D920005663DB /* Main.storyboard */; };
 		559D7C392BC1D921005663DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559D7C382BC1D921005663DB /* Assets.xcassets */; };
 		559D7C3C2BC1D921005663DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559D7C3A2BC1D921005663DB /* LaunchScreen.storyboard */; };
+		559D7C442BC1DB0B005663DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D7C432BC1DB0B005663DB /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		559D7C382BC1D921005663DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		559D7C3B2BC1D921005663DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559D7C3D2BC1D921005663DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559D7C432BC1DB0B005663DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				559D7C382BC1D921005663DB /* Assets.xcassets */,
 				559D7C3A2BC1D921005663DB /* LaunchScreen.storyboard */,
 				559D7C3D2BC1D921005663DB /* Info.plist */,
+				559D7C432BC1DB0B005663DB /* HomeViewController.swift */,
 			);
 			path = ThirdLoginBank;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				559D7C342BC1D920005663DB /* ViewController.swift in Sources */,
 				559D7C302BC1D920005663DB /* AppDelegate.swift in Sources */,
 				559D7C322BC1D920005663DB /* SceneDelegate.swift in Sources */,
+				559D7C442BC1DB0B005663DB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSLabFIAngelLopez.ThirdLoginBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,9 +340,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSLabFIAngelLopez.ThirdLoginBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
